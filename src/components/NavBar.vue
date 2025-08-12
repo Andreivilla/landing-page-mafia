@@ -12,7 +12,7 @@
 <template>
 <header class="lg:px-16 px-4 bg-black flex flex-wrap items-center py-4 shadow-md">
   <div class="flex-1 flex justify-between items-center">
-      <a href="#" class="font-logo text-4xl font-bold">MAFIA</a>
+      <router-link to="/" class="font-logo text-4xl font-bold">MAFIA</router-link>
   </div>
 
 <!--
@@ -38,17 +38,17 @@
   <div :class="menuOpen ? 'block' : 'hidden'" class="md:flex md:items-center md:w-auto w-full">
       <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-              <li><a class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl" href="#">
+              <li><router-link to="/MafiaI" class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl">
                   MAFIA<span class="text-primary-red text-2xl">I</span>
-                </a>
+                </router-link>
               </li>
-              <li><a class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl" href="#">
+              <li><router-link to="/MafiaII" class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl">
                   MAFIA<span class="text-primary-red">II</span>
-                </a>
+                </router-link>
               </li>
-              <li><a class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl" href="#">
-                  MAFIA<span class="text-primary-red">II</span>
-                </a>
+              <li><router-link to="/MafiaIII" class="font-logo md:p-4 py-3 px-0 block text-white hover:text-primary-red text-2xl">
+                  MAFIA<span class="text-primary-red">III</span>
+                </router-link>
               </li>
           </ul>
       </nav>
