@@ -30,10 +30,7 @@
     <HamburgerMenu 
       class="md:hidden block"
       @changeMenu="changeMenu"
-    />
-  
-
-  
+    /> 
 
   <div :class="menuOpen ? 'block' : 'hidden'" class="md:flex md:items-center md:w-auto w-full">
       <nav>
