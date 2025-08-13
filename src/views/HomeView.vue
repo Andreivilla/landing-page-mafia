@@ -1,13 +1,6 @@
 <template>
-  <div class="relative min-h-screen">
-    <!-- Background com blur -->
-    <div
-      class="absolute inset-0 bg-cover bg-center blur-lg"
-      style="background-image: url('/image/home/mafia-trilogy.jpg'); background-size: 180%;"
-    ></div>
-
-    <!-- Conteúdo visível e nítido -->
-    <div class="relative z-10 p-10">
+  <div class="relative min-h-screen bg-[url(/image/home/mafia-trilogy.jpg)] bg-size-[auto_150%] bg-center">
+    <div class="relative p-10 backdrop-blur-sm">
       <div class="bg-black ">
         <p class="text-xl p-3">"Family. Power. Respect. Live the life of a gangster across three distinct eras of 
       organized crime in America."</p>
