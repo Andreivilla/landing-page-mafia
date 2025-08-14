@@ -2,7 +2,7 @@
   <div class="relative min-h-screen bg-[url(/image/home/mafia-trilogy.jpg)] bg-size-[auto_150%] bg-center">
     <div class="relative p-10 backdrop-blur-sm">
       <div class="bg-black ">
-        <p class="text-xl p-3">"Family. Power. Respect. Live the life of a gangster across three distinct eras of 
+        <p class="text-xl p-3 text-white">"Family. Power. Respect. Live the life of a gangster across three distinct eras of 
       organized crime in America."</p>
       </div>
 
@@ -25,7 +25,7 @@
     </div>
 
 
-      <p class="mt-2">Mafia: Trilogy is a crime drama video game trilogy bundle consisting of 
+      <p class="mt-2 text-white">Mafia: Trilogy is a crime drama video game trilogy bundle consisting of 
       Mafia: Definitive Edition, a remaster of Mafia II, and a re-release of Mafia III, with all DLC 
       of each respective game included.</p>
     </div>
