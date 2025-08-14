@@ -9,7 +9,7 @@
     <div class="flex flex-col items-center gap-8 m-4">
       <div class="w-80 aspect-square overflow-hidden">
         <router-link to="/MafiaI">
-          <img src="/image/mafia1/capa.jpg" alt="" class="w-full h-full object-cover object-center">
+          <img src="/image/mafia1/capa.webp" alt="" class="w-full h-full object-cover object-center">
         </router-link>
       </div>
       <div class="w-80 aspect-square overflow-hidden">
