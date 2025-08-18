@@ -26,10 +26,9 @@
       seus aliados e inimigos.</p>
     </div>
 
-    <div>
-      <h1>MIDIA</h1>
-    
-    </div>
+    <MediaList 
+      :images="images_gameplay.mafia1"
+    />
 
     <BuyPlataform/>
     
@@ -38,6 +37,10 @@
 
 <script setup>
 import BuyPlataform from '../components/BuyPlataform.vue';
+import MediaList from '../components/MediaList.vue';
+import images_gameplay from '../assets/media.json'
+
+
 
 </script>
 
