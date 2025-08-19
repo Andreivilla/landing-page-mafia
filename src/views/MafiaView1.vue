@@ -27,20 +27,22 @@
     </div>
 
     <MediaList 
-      :images="images_gameplay.mafia1"
+      :images="store.GameplayImages"
     />
 
-    <BuyPlataform/>
+    <BuyPlataform
+      :store="store"
+    />
     
   </div>
 </template>
 
 <script setup>
+import { useMafia1Store } from '../stores/stores';
 import BuyPlataform from '../components/BuyPlataform.vue';
 import MediaList from '../components/MediaList.vue';
-import images_gameplay from '../assets/media.json'
 
-
+const store = useMafia1Store();
 
 </script>
 
