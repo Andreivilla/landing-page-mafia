@@ -8,7 +8,7 @@
       <!-- Conteúdo visível e nítido -->
       <div class="z-10 p-10">
         <div class="bg-black p-3">
-          <h1 class="text-3xl text-white">QUANDO NEM TUDO É O QUE PARECE</h1>
+          <h1 class="text-2xl text-white">QUANDO NEM TUDO É O QUE PARECE</h1>
         </div>
       </div>
     </div>
