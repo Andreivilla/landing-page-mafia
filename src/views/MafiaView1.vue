@@ -43,7 +43,7 @@ import BuyPlataform from '../components/BuyPlataform.vue';
 import MediaList from '../components/MediaList.vue';
 
 const store = useMafia1Store();
-
+  
 </script>
 
 <style scoped>

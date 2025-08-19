@@ -4,7 +4,8 @@
 
 @theme {
   --color-primary-red: #AB0418;
-  --color-primary-gray: 
+  --color-primary-gray: #2D2D2D;
+  --color-secondary-gray: #1A1A1A; 
   --font-logo: "Bebas Neue", sans-serif;
 
   
