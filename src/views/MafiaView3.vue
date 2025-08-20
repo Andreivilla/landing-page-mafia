@@ -1,15 +1,12 @@
 <template>
-  <div class="mafia3">
-  mafia 3
-  </div>
+  <GamePage
+  :store="store"
+  />
 </template>
 
 <script setup>
+  import GamePage from '../components/GamePage.vue';
+  import { useMafia3Store } from '../stores/stores';
 
+  const store = useMafia3Store();
 </script>
-
-<style scoped>
-.mafia3{
-  background-color: blue;
-}
-</style>
