@@ -2,17 +2,17 @@
   <div class="flex justify-center">
     <div class="bg-black m-4">
       <button @click="changePlataform('epic')">
-        <img src="/image/util/icon-epic.png" alt="" class="h-10 w-10 object-cover">
+        <img src="/image/util/icon-epic.png" alt="" class="h-10 w-10 md:h-14 md:w-14 object-cover">
       </button>
     </div>
     <div class="bg-black m-4">
       <button @click="changePlataform('xbox')">
-        <img src="/image/util/icon-xbox.png" alt=""class="h-10 w-10 object-cover filter invert">
+        <img src="/image/util/icon-xbox.png" alt=""class="h-10 w-10 md:h-14 md:w-14 object-cover filter invert">
       </button>
     </div>
     <div class="bg-black m-4">
       <button @click="changePlataform('steam')">
-        <img src="/image/util/icon-steam.png" alt=""class="h-10 w-10 object-cover">
+        <img src="/image/util/icon-steam.png" alt=""class="h-10 w-10 md:h-14 md:w-14 object-cover">
       </button>
     </div>      
   </div>
