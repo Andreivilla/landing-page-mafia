@@ -19,14 +19,15 @@
   
   <h1 class="text-white text-center text-3xl">{{ CurrentPlataformName }}</h1>
 
-  <ul >
+  <ul class="m-4 grid grid-cols-1 gap-4 md:grid-cols-2">
     <li>
       <!-- Centering wrapper -->
-      <div class="m-2 relative flex flex-col text-white bg-secondary-gray shadow-md bg-clip-border rounded-xl">
-        <div class="relative mx-4 mt-4 overflow-hidden bg-white bg-clip-border rounded-xl">
+      <div class="m-2 relative flex flex-col text-white bg-secondary-gray shadow-md bg-clip-border rounded-xl md:h-[700px]">
+        <div class="relative mx-4 mt-4 overflow-hidden bg-white bg-clip-border rounded-xl md:h-[600px]">
             <img
                 :src="store.CoverImage"
-                alt="card-image" class="object-cover w-full h-full" />
+                alt="card-image" 
+                class="object-cover w-full h-full" />
         </div>
         <div class="p-6">
             <div class="flex items-center justify-between mb-2">
@@ -50,11 +51,12 @@
     </li>
       
     <li>
-      <div class="m-2 relative flex flex-col text-white bg-secondary-gray shadow-md bg-clip-border rounded-xl">
-        <div class="relative mx-4 mt-4 overflow-hidden bg-white bg-clip-border rounded-xl">
+      <div class="m-2 relative flex flex-col text-white bg-secondary-gray shadow-md bg-clip-border rounded-xl md:h-[700px]">
+        <div class="relative mx-4 mt-4 overflow-hidden bg-white bg-clip-border rounded-xl md:h-[600px]">
             <img
                 src="/image/home/mafia-trilogy.jpg"
-                alt="card-image" class="object-cover w-full h-full" />
+                alt="card-image" 
+                class="object-cover w-full h-full" />
         </div>
         <div class="p-6">
             <div class="flex items-center justify-between mb-2">
