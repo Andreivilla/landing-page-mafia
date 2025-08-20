@@ -1,5 +1,5 @@
 <template>
-<header class="lg:px-16 px-4 bg-black flex flex-wrap items-center py-4 shadow-md z-50">
+<header class="lg:px-16 px-4 bg-black flex flex-wrap items-center shadow-md z-50">
   <div class="flex-1 flex justify-between items-center">
       <router-link to="/" class="font-logo text-4xl font-bold text-white">MAFIA</router-link>
   </div>

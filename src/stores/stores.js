@@ -8,7 +8,7 @@ export const useMafia1Store = defineStore('mafia1', {
     como taxista, Tommy Angelo tem um encontro involuntário com a Máfia, que 
     revela uma vida de recompensas grande demais para ser ignorada. Um clássico 
     adorado, fielmente refeito e expandido do zero .`,
-    CoverImage: '/image/mafia1/capa.webp',
+    CoverImage: '/image/mafia1/capa.jpg',
     Plataform: '',
     GameplayImages: [
       "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030840/ss_f531c551d9794deafc1e45421b70e8d4c254aaca.600x338.jpg?t=1750802973",

@@ -1,14 +1,16 @@
 <template>
   <div class="relative min-h-screen flex flex-col bg-black">
-
+    
     <div
-      class="inset-0 bg-no-repeat flex flex-col bg-cover h-100 justify-end"
+      class="inset-0 bg-no-repeat flex items-end justify-center bg-cover h-lvw"
       :style="`background-image: url(${store.CoverImage})`"
     >
       <!-- Conteúdo visível e nítido -->
       <div class="z-10 p-10">
         <div class="bg-black p-3">
-          <h1 class="text-xl text-white"> {{ store.Slogan }} </h1>
+          <h1 class="text-3xl md:text-5xl text-white text-center">
+            {{ store.Slogan }}
+          </h1>
         </div>
       </div>
     </div>
