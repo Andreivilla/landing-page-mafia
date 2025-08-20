@@ -43,7 +43,7 @@ export const useMafia1Store = defineStore('mafia1', {
   }
 });
 
-export const useMafia2Store = defineStore('mafia1', {
+export const useMafia2Store = defineStore('mafia2', {
   state: () => ({
     Name: "Mafia II: Definitive Edition",
     Slogan: "QUANDO TUDO AINDA NÃO É O BASTANTE",
@@ -88,7 +88,7 @@ export const useMafia2Store = defineStore('mafia1', {
   }
 });
 
-export const useMafia3Store = defineStore('mafia1', {
+export const useMafia3Store = defineStore('mafia3', {
   state: () => ({
     Name: "Mafia III: Definitive Edition",
     Slogan: "QUANDO TUDO ESTÁ PERDIDO",
