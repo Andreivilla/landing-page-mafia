@@ -1,14 +1,3 @@
-<script setup>
-  import { ref } from 'vue';
-  import HamburgerMenu from './HamburgerMenu.vue';
-
-  const menuOpen = ref(false);
-
-  function changeMenu(){
-    menuOpen.value = !menuOpen.value;
-  }
-</script>
-
 <template>
 <header class="lg:px-16 px-4 bg-black flex flex-wrap items-center py-4 shadow-md z-50">
   <div class="flex-1 flex justify-between items-center">
@@ -40,6 +29,13 @@
 </header>
 </template>
 
-<style scoped>
+<script setup>
+  import { ref } from 'vue';
+  import HamburgerMenu from './HamburgerMenu.vue';
 
-</style>
+  const menuOpen = ref(false);
+
+  function changeMenu(){
+    menuOpen.value = !menuOpen.value;
+  }
+</script>

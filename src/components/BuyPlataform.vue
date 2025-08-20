@@ -1,18 +1,18 @@
 <template>
   <div class="flex justify-center">
-    <div class="border-solid bg-black m-4">
+    <div class="bg-black m-4">
       <button @click="changePlataform('epic')">
-        <img src="/image/util/icone-epic.png" alt="" class="h-10 w-10 object-cover">
+        <img src="/image/util/icon-epic.png" alt="" class="h-10 w-10 object-cover">
       </button>
     </div>
-    <div class="border-solid bg-black m-4">
+    <div class="bg-black m-4">
       <button @click="changePlataform('xbox')">
-        <img src="/image/util/icone-xbox.png" alt=""class="h-10 w-10 object-cover filter invert">
+        <img src="/image/util/icon-xbox.png" alt=""class="h-10 w-10 object-cover filter invert">
       </button>
     </div>
-    <div class="border-solid bg-black m-4">
+    <div class="bg-black m-4">
       <button @click="changePlataform('steam')">
-        <img src="/image/util/icone-steam.png" alt=""class="h-10 w-10 object-cover">
+        <img src="/image/util/icon-steam.png" alt=""class="h-10 w-10 object-cover">
       </button>
     </div>      
   </div>
