@@ -3,7 +3,7 @@
     
     <div
       class="inset-0 bg-no-repeat flex items-end justify-center bg-cover h-lvw"
-      :style="`background-image: url(${store.CoverImage})`"
+      :style="`background-image: url(${baseUrl + store.CoverImage})`"
     >
       <!-- Conteúdo visível e nítido -->
       <div class="z-10 p-10">
@@ -38,5 +38,5 @@ import BuyPlataform from '../components/BuyPlataform.vue'
 
 const route = useRoute()
 let store = useMafia3Store(route.params.widgetID)
-
+const baseUrl = import.meta.env.BASE_URL
 </script>

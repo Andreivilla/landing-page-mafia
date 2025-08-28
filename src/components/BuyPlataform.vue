@@ -25,7 +25,7 @@
       <div class="m-2 relative flex flex-col text-white bg-secondary-gray shadow-md bg-clip-border rounded-xl md:h-[700px]">
         <div class="relative mx-4 mt-4 overflow-hidden bg-white bg-clip-border rounded-xl md:h-[600px]">
             <img
-                :src="store.CoverImage"
+                :src="baseUrl + store.CoverImage"
                 alt="card-image" 
                 class="object-cover w-full h-full" />
         </div>
@@ -83,6 +83,7 @@
 </template>
 <script setup>
 import { computed } from 'vue';
+const baseUrl = import.meta.env.BASE_URL
 
 const props = defineProps({
   store: Object,
