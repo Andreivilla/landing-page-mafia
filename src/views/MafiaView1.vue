@@ -2,7 +2,7 @@
   <div class="relative min-h-screen flex flex-col bg-black">
 
     <div
-      class="inset-0 bg-no-repeat flex items-end justify-center bg-cover h-lvw"
+      class="inset-0 bg-no-repeat flex items-end justify-center bg-cover h-lvw md:max-h-310"
       :style="`background-image: url(${baseUrl + store.CoverImage})`"
     >
       <!-- Conteúdo visível e nítido -->
